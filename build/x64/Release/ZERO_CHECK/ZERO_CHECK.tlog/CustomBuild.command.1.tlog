@@ -1,0 +1,10 @@
+^C:\USERS\SATYA\ONEDRIVE\DESKTOP\DISTRIBUTED_CHAT_SYSTEM\BUILD\CMAKEFILES\21ED7BE5811155CCF20BC4D3566DBBCB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/satya/OneDrive/Desktop/distributed_chat_system -BC:/Users/satya/OneDrive/Desktop/distributed_chat_system/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/satya/OneDrive/Desktop/distributed_chat_system/build/DistributedChatSystem.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

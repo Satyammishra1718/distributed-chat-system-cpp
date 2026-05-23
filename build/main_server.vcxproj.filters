@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\main_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\networking\TcpSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\networking\SocketUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\threading\ThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\logging\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\config\ConfigManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\protocol\Packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\protocol\MessageSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\ServerNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\ClientSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\ConnectionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\UserManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\ChatRoomManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\ReplicationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\HeartbeatManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\server\ChatServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83368608-CB84-3831-A5DA-2E48F87926BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

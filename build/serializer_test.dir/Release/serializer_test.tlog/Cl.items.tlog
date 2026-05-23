@@ -1,0 +1,8 @@
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\tests\unit\SerializerTest.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\SerializerTest.obj
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\networking\TcpSocket.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\TcpSocket.obj
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\networking\SocketUtils.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\SocketUtils.obj
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\threading\ThreadPool.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\ThreadPool.obj
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\logging\Logger.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\Logger.obj
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\config\ConfigManager.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\ConfigManager.obj
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\protocol\Packet.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\Packet.obj
+C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\protocol\MessageSerializer.cpp;C:\Users\satya\OneDrive\Desktop\distributed_chat_system\build\serializer_test.dir\Release\MessageSerializer.obj

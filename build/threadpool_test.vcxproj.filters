@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\tests\unit\ThreadPoolTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\networking\TcpSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\networking\SocketUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\threading\ThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\logging\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\src\core\config\ConfigManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\satya\OneDrive\Desktop\distributed_chat_system\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83368608-CB84-3831-A5DA-2E48F87926BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

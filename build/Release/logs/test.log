@@ -1,0 +1,46 @@
+[2026-05-23 22:58:58] [INFO] [SERVER] Starting Chat Server Node 1 on port 9081
+[2026-05-23 22:58:58] [SUCCESS] [SERVER] Chat Server Node 1 is fully operational
+[2026-05-23 22:58:58] [INFO] [SERVER] Starting Chat Server Node 2 on port 9082
+[2026-05-23 22:58:58] [INFO] [SERVER] Listener select-loop thread running
+[2026-05-23 22:58:58] [INFO] [SERVER] Peer auto-connector thread running
+[2026-05-23 22:58:58] [INFO] [SERVER] Attempting to connect to peer Server ID 2 at 127.0.0.1:9082
+[2026-05-23 22:58:58] [SUCCESS] [SERVER] Chat Server Node 2 is fully operational
+[2026-05-23 22:58:58] [INFO] [HEARTBEAT] Heartbeat manager thread started
+[2026-05-23 22:58:58] [INFO] [SERVER] Listener select-loop thread running
+[2026-05-23 22:58:58] [INFO] [HEARTBEAT] Heartbeat manager thread started
+[2026-05-23 22:58:58] [INFO] [SERVER] Peer auto-connector thread running
+[2026-05-23 22:58:58] [INFO] [SERVER] Attempting to connect to peer Server ID 1 at 127.0.0.1:9081
+[2026-05-23 22:58:58] [INFO] [SERVER] Accepted new raw connection from client handle: 328
+[2026-05-23 22:58:58] [SUCCESS] [SERVER] Successfully established connection to peer Server ID: 2
+[2026-05-23 22:58:58] [INFO] [SERVER] Promoting incoming raw connection from socket 328 to Peer Server ID: 1
+[2026-05-23 22:58:58] [SUCCESS] [SERVER] Successfully established connection to peer Server ID: 1
+[2026-05-23 22:58:58] [INFO] [SERVER] Accepted new raw connection from client handle: 344
+[2026-05-23 22:58:58] [INFO] [SERVER] Client disconnected or invalid packet. Handle: 344
+[2026-05-23 22:58:58] [INFO] [SERVER] Promoting incoming raw connection from socket 344 to Peer Server ID: 2
+[2026-05-23 22:58:58] [INFO] [SERVER] Client disconnected or invalid packet. Handle: 328
+[2026-05-23 22:58:58] [WARN] [SERVER] Peer Server ID 2 disconnected
+[2026-05-23 22:58:58] [WARN] [SERVER] Peer Server ID 1 disconnected
+[2026-05-23 22:59:00] [INFO] [SERVER] Accepted new raw connection from client handle: 356
+[2026-05-23 22:59:00] [INFO] [SERVER] Accepted new raw connection from client handle: 328
+[2026-05-23 22:59:00] [SUCCESS] [SERVER] User Alice successfully authenticated on Server 1
+[2026-05-23 22:59:00] [SUCCESS] [SERVER] User Bob successfully authenticated on Server 2
+[2026-05-23 22:59:00] [INFO] [REPLICATION] Replicating login of Alice to peer cluster
+[2026-05-23 22:59:00] [INFO] [REPLICATION] Replicating login of Bob to peer cluster
+[2026-05-23 22:59:02] [INFO] [REPLICATION] Replicating room #lobby join of Server 1 to peers
+[2026-05-23 22:59:03] [INFO] [REPLICATION] Replicating room #lobby join of Server 2 to peers
+[2026-05-23 22:59:04] [INFO] [SERVER] Client disconnected or invalid packet. Handle: 356
+[2026-05-23 22:59:04] [INFO] [SERVER] Client disconnected or invalid packet. Handle: 328
+[2026-05-23 22:59:04] [INFO] [REPLICATION] Replicating logout of Bob to peer cluster
+[2026-05-23 22:59:04] [INFO] [SERVER] Shutting down Chat Server Node 1
+[2026-05-23 22:59:04] [INFO] [REPLICATION] Replicating logout of Alice to peer cluster
+[2026-05-23 22:59:04] [INFO] [SERVER] Listener select-loop thread stopped
+[2026-05-23 22:59:08] [INFO] [SERVER] Peer auto-connector thread stopped
+[2026-05-23 22:59:08] [INFO] [SERVER] Attempting to connect to peer Server ID 1 at 127.0.0.1:9081
+[2026-05-23 22:59:08] [SUCCESS] [SERVER] Successfully established connection to peer Server ID: 1
+[2026-05-23 22:59:08] [INFO] [HEARTBEAT] Heartbeat manager thread stopped
+[2026-05-23 22:59:08] [SUCCESS] [SERVER] Chat Server Node 1 shut down successfully
+[2026-05-23 22:59:08] [INFO] [SERVER] Shutting down Chat Server Node 2
+[2026-05-23 22:59:08] [INFO] [SERVER] Listener select-loop thread stopped
+[2026-05-23 22:59:13] [INFO] [HEARTBEAT] Heartbeat manager thread stopped
+[2026-05-23 22:59:18] [INFO] [SERVER] Peer auto-connector thread stopped
+[2026-05-23 22:59:18] [SUCCESS] [SERVER] Chat Server Node 2 shut down successfully
